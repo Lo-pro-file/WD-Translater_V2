@@ -69,11 +69,11 @@ and larger works may be distributed under different terms and without source cod
 ````
 
 ## Support 🇮🇳
-<a href="https://t.me/lntechnical">
+<a href="https://t.me/Opleech">
    <p> Telegram </p>
   </a>
-<a href="https://youtube.com/c/LNtechnical">
-   <p> YouTube </p>
+<a href="https://t.me/WOODcraft_Mirror_Topic">
+   <p> Topic Group </p>
   </a>
 
 ## Credits
