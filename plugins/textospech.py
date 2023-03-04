@@ -21,10 +21,10 @@ def convert(text):
 @Client.on_message(filters.command("tts"))
 async def text_to_speech(_, message: Message):
     if not message.reply_to_message:
-        return await message.reply_text("💡 Reply to some text...")
+        return await message.reply_text("🦋 Reply to some text...")
     if not message.reply_to_message.text:
-        return await message.reply_text("💡 Reply to some text...")
-    m = await message.reply_text("🔁 Processing...")
+        return await message.reply_text("🦋 Reply to some text...")
+    m = await message.reply_text("⚽️ Processing...")
     text = message.reply_to_message.text
     try:
         loop = get_running_loop()
