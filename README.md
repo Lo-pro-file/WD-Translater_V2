@@ -15,8 +15,8 @@
 
   </a>
   
-  <a href="https://github.com/lntechnical2/Google_Translater_V2/fork">
-    <img src="https://img.shields.io/github/forks/lntechnical2/Google_Translater_V2?label=Fork&style=social">
+  <a href="https://github.com/angel-loveyou/WD-Translater_V2/fork">
+    <img src="https://img.shields.io/github/forks/angel-loveyou/WD-Translater_V2?label=Fork&style=social">
 
   </a>  
 </p>
@@ -56,7 +56,7 @@
 * `/unset` unset custom language
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lntechnical2/Google_Translater_V2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/angel-loveyou/WD-Translater_V2)
 
 ## License
 ````
