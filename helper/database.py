@@ -23,18 +23,13 @@ def unset(chat_id):
 	dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":None}})
 
 def find(chat_id):
-	id =  {"_id":chat_id}
-	x = dbcol.find(id)
-	for i in x:
-             lgcd = i["lg_code"]
-             return lgcd 
+            id =  {"_id":chat_id}
+            x = dbcol.find(id)
+            for i in x:
+                        return i["lg_code"] 
 
 def getid():
-    values = []
-    for key  in dbcol.find():
-         id = key["_id"]
-         values.append((id)) 
-    return values
+            return [key["_id"] for key in dbcol.find()]
 
 def find_one(id):
 	return dbcol.find_one({"_id":id})
